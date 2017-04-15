@@ -7,7 +7,7 @@ export default {
     }
   },
   render(h) {
-    return <h1 class="bye">{{ msg }}</h1>
+    return <h1 class="bye">{ this.msg }</h1>
   }
 }
 </script>

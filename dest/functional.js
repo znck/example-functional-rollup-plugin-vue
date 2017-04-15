@@ -6218,7 +6218,7 @@ var Bye = {
     }
   },
   render: function render(h) {
-    return h( 'h1', { class: "bye" }, { msg: msg })
+    return h( 'h1', { class: "bye" }, this.msg)
   }
 };
 
